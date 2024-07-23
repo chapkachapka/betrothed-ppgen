@@ -1,3 +1,32 @@
+// This is a ppgen source file.
+//
+// Title      : My Betrothed and Other Poems
+// Author     : Lizzie Magie
+// Project ID : 65b54c3199cf8
+
+// START OF HEADER
+
+.dt My Betrothed and Other Poems | Project Gutenberg
+
+// REGISTERS
+
+.nr psi .5em
+.nr psb .5em
+
+// MACROS
+
+// CLASS DEFINITIONS
+
+.de .transcribers-notes { width: 80%; margin: auto; padding: 0 1em; \
+background-color: #E3E4FA; border: 1px solid silver; \
+page-break-before:always;margin-top:4em; }
+
+// REGEX
+
+// END OF HEADER
+
+// START OF FRONT MATTER
+
 
 -----File: 001.png---------------------------------------------------------
 
@@ -81,6 +110,16 @@ A SPRING IDYL,       28
 */
 -----File: 005.png---------------------------------------------------------
 [Blank Page]
+
+// END OF FRONT MATTER
+
+// START OF MAIN TEXT
+
+// Set paragraph settings for main text
+.pi
+
+
+
 -----File: 006.png---------------------------------------------------------
 
 
@@ -1012,3 +1051,25 @@ Together, then, leave them in sacred communion--
 */
 
 [Illustration]
+
+// END OF MAIN TEXT
+
+// TRANSCRIBER’S NOTES
+
+.ni
+.dv class="transcribers-notes"
+.ce
+<xl>Transcriber’s Notes</xl>
+
+.sp 2
+
+.if t
+This file uses <i>underscores</i> to indicate italic text.
+.if-
+Itemized changes from the original text:
+.ul
+//.it #p. 10:tn-wife#: Removed comma after “wife” (…his wife answered…)
+.ul-
+.dv-
+
+// END OF SOURCE FILE
