@@ -28,7 +28,7 @@ page-break-before:always;margin-top:4em; }
 // START OF FRONT MATTER
 
 
------File: 001.png---------------------------------------------------------
+.bn 001.png
 
 [Illustration:
 
@@ -37,7 +37,7 @@ page-break-before:always;margin-top:4em; }
 Lizzie Magie</i>
 */
 ][**handwritten signature]
------File: 002.png---------------------------------------------------------
+.bn 002.png
 
 
 
@@ -63,7 +63,8 @@ They will be most highly valued where they are best and longest known.
 THE BRODIX PUBLISHING COMPANY,
 1892.
 */
------File: 003.png---------------------------------------------------------
+.bn 003.png
+
 
 
 
@@ -73,7 +74,8 @@ Copyright, 1892,
 By <sc>Lizzie Magie</sc>,
 229 H St., N. E., Washington, D. C.
 */
------File: 004.png---------------------------------------------------------
+.bn 004.png
+
 
 
 
@@ -108,8 +110,6 @@ RELATIVITY,        27
 
 A SPRING IDYL,       28
 */
------File: 005.png---------------------------------------------------------
-[Blank Page]
 
 // END OF FRONT MATTER
 
@@ -120,7 +120,8 @@ A SPRING IDYL,       28
 
 
 
------File: 006.png---------------------------------------------------------
+.bn 006.png
+.pn 5
 
 
 
@@ -159,7 +160,8 @@ Wearied soon without Roberta,
 My sweet blossom, my Roberta,
 Whom I called my baby sweetheart,
 */
------File: 007.png---------------------------------------------------------
+.bn 007.png
+.pn +1
 /*
 
 [**new stanza?]She that was my merry playmate,
@@ -197,7 +199,8 @@ And she came and stood beside me,
 Looked up in my face serenely,
 Smiled up at me softly, sweetly,
 */
------File: 008.png---------------------------------------------------------
+.bn 008.png
+.pn +1
 /*
 Smiled with eyes and smiled with lips.
 Then she hid her face so shyly,
@@ -234,7 +237,8 @@ Warms and thrills the hardened bosom,
 Moves the gentle heart to madness,
 Makes the saddest light and merry,
 */
------File: 009.png---------------------------------------------------------
+.bn 009.png
+.pn +1
 /*
 Makes the happiest despair.
 Love that bows the proudest spirit,
@@ -271,7 +275,8 @@ Harmony in every outline,
 Grace and beauty in each movement,
 Simple, pretty, artless charms.
 */
------File: 010.png---------------------------------------------------------
+.bn 010.png
+.pn +1
 /*
 Soft her skin as new-born baby’s,
 Soft and tender as a roseleaf,
@@ -308,7 +313,8 @@ Little knows she of the classics,
 And but little more of figures;
 Grammar lessons bore and vex her,
 */
------File: 011.png---------------------------------------------------------
+.bn 011.png
+.pn +1
 /*
 History is dull and irksome,
 Nothing cares she for the past;
@@ -345,7 +351,8 @@ To my eager, hasty wooing,
 To my over-zealous pleading,
 To my passionate appeals.
 */
------File: 012.png---------------------------------------------------------
+.bn 012.png
+.pn +1
 /*
 Much too early I approached her,
 Much too early in good judgment,
@@ -382,7 +389,8 @@ Knew my darling’s love was mine.
 Once I kissed her, kissed her warmly,
 While she nestled on my bosom
 */
------File: 013.png---------------------------------------------------------
+.bn 013.png
+.pn +1
 /*
 In her playful, childish manner,
 In her loving, trusting way.
@@ -419,7 +427,8 @@ Playfully my ear she pinches,
 Lovingly my cheek she kisses,
 Lovingly my hand caresses,
 */
------File: 014.png---------------------------------------------------------
+.bn 014.png
+.pn +1
 /*
 With the purity of childhood,
 Budding into maiden charms.
@@ -456,7 +465,8 @@ Careless, thoughtless little girl!
 My Roberta loves me fondly,
 Loves me with sincere devotion,
 */
------File: 015.png---------------------------------------------------------
+.bn 015.png
+.pn +1
 /*
 With a tender, true affection,
 With a sweet and simple love.
@@ -493,7 +503,8 @@ Than she ever yet has known.
 But not yet must I disturb her,
 Yet awhile must I be patient,
 */
------File: 016.png---------------------------------------------------------
+.bn 016.png
+.pn +1
 /*
 Yet awhile delay the blisses
 Of her first impassioned kisses,
@@ -531,7 +542,8 @@ So adored and so beloved,
 As Roberta, sweet Roberta,
 My Roberta, is by me!
 */
------File: 017.png---------------------------------------------------------
+.bn 017.png
+.pn +1
 
 
 
@@ -571,7 +583,8 @@ The pen, unheeded, slips and falls
 From out his loosened hand.
 His tear-stained eyes dance wildly
 */
------File: 018.png---------------------------------------------------------
+.bn 018.png
+.pn +1
 /*
 To the merry peals;
 His thin lips part in sweet, sad smiles;
@@ -608,7 +621,8 @@ The poem curtly ended,
 That youthful face,
 So lately lit with ecstasy of joy,
 */
------File: 019.png---------------------------------------------------------
+.bn 019.png
+.pn +1
 /*
 Wears now a look of keen and sharp-felt pain.
 “Tick, tock,” work, work, “tick, tock,” work, work!
@@ -646,7 +660,8 @@ And fade and die imprisoned.
 */
 
 [Illustration]
------File: 020.png---------------------------------------------------------
+.bn 020.png
+.pn +1
 
 
 
@@ -686,7 +701,8 @@ I love you. My whole heart you’ve taken;
   And so my breast is overjoyed.
         What joy is mine
 */
------File: 021.png---------------------------------------------------------
+.bn 021.png
+.pn +1
 /*
         When words of thine
   Bid sorrow fly and hope awaken!
@@ -728,7 +744,8 @@ And who cause most happiness to all.
 The great are those who make the world
 The better by their deeds.
 */
------File: 022.png---------------------------------------------------------
+.bn 022.png
+.pn +1
 
 
 
@@ -767,7 +784,8 @@ Beneath my feet is dozing.
       Upon the walls,
 The pictures half exposing.
 */
------File: 023.png---------------------------------------------------------
+.bn 023.png
+.pn +1
 
 /*
       The flashing light,
@@ -805,7 +823,8 @@ And soothe me in my slumber;
       To Paradise,
 ’Mid pleasures without number.
 */
------File: 024.png---------------------------------------------------------
+.bn 024.png
+.pn +1
 
 
 
@@ -844,7 +863,8 @@ I <i>think</i> of this vast wilderness of worlds,
 The universe, and the thought affords me pleasure.
 <i>Can it</i> think of me?
 */
------File: 025.png---------------------------------------------------------
+.bn 025.png
+.pn +1
 
 
 
@@ -875,7 +895,8 @@ Who could see without admiring an impassioned girl like this?
 */
 
 [Illustration]
------File: 026.png---------------------------------------------------------
+.bn 026.png
+.pn +1
 
 
 
@@ -920,7 +941,8 @@ O darling, there is in this great world of ours
 But, when you hold me in your arms and kiss me,
   I feel only joy and gladness.
 */
------File: 027.png---------------------------------------------------------
+.bn 027.png
+.pn +1
 
 
 
@@ -955,7 +977,8 @@ Would the sweet, longed-for words from his lips never come?
 Alas! never, poor girl! For her lover was dumb.
   O what exquisite joy was denied her!
 */
------File: 028.png---------------------------------------------------------
+.bn 028.png
+.pn +1
 
 
 
@@ -991,7 +1014,8 @@ If people did not differ
 Mankind would be a unit,
   And life would be for naught.
 */
------File: 029.png---------------------------------------------------------
+.bn 029.png
+.pn +1
 
 
 
@@ -1031,7 +1055,8 @@ See how she eagerly, joyfully, gratefully
               Shy, hesitating?
     Surely that maid knows the love in his heart.
 */
------File: 030.png---------------------------------------------------------
+.bn 030.png
+.pn +1
 /*
               Why does he blush so?
               Why does she flush so?
