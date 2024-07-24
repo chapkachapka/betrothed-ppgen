@@ -39,7 +39,28 @@ $1.
 background-color: #E3E4FA; border: 1px solid silver; \
 page-break-before:always;margin-top:4em; }
 
+
+// Image drop caps
+.de img.drop-cap { float: left; margin: 0 0.5em 0 0; position: relative; z-index: 1; }
+.de .linegroup { display:block;text-indent: 0; margin-top: 0.25em; margin-bottom: 0.25em; }
+.de .linegroup .group {margin-left:4em;}
+.de .linegroup .line {display:block;float:left;}
+.de .dc-first-line {display:block;}
+.de .dc-first-line:first-letter { color: transparent; visibility: hidden; margin-left: -1.1em; }
+.de .dc-first-word {text-transform:uppercase; display:inline;}
+.de div.cap-poem:after {content:' ';display:block;clear:both;}
+.de div.clear {clear:both;}
+
+
+
 // REGEX
+
+// Drop-cap images
+.sr h §@dc1@§<div class='drop-cap-image'><img class='drop-cap' src='images/§
+.sr h §@dc2@§' width=100px></div>§
+.sr h §@dc3@§<div class='dc-first-line'><span class="dc-first-word">§
+.sr h §@dc4@§</span>§
+.sr h §@dc5@§</div>§
 
 // END OF HEADER
 
@@ -141,12 +162,29 @@ A SPRING IDYL,       28
 .bn 006.png
 .pn 5
 
+// My Betrothed.
+.pm poem-header "My Betrothed TEST" my-betrothed-temp
+
+
+.dv class="cap-poem"
+@dc1@temp-dc.png@dc2@
+.nf
+@dc3@Scarcely@dc4@ eighteen years have flitted,@dc5@
+Scarcely eighteen merry summers,
+And as many merry winters,
+Have elapsed since my Roberta,
+My sweet blossom, my Roberta,
+Has had being, has existed.
+.nf-
+.dv-
+//.dv class="clear"
+//.dv-
 
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed
 
 
-/*
+.di temp-dc.png 200 150 1.1
 Scarcely eighteen years have flitted,
 Scarcely eighteen merry summers,
 And as many merry winters,
@@ -154,6 +192,7 @@ Have elapsed since my Roberta,
 My sweet blossom, my Roberta,
 Has had being, has existed.
 
+.nf
 I have watched her in her cradle,
 When she cooed and wooed the sunshine,
 Tried to catch it in her fingers,
@@ -556,7 +595,9 @@ So beloved by another,
 So adored and so beloved,
 As Roberta, sweet Roberta,
 My Roberta, is by me!
-*/
+.nf-
+
+
 .bn 017.png
 .pn +1
 
