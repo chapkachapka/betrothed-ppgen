@@ -63,13 +63,12 @@ page-break-before:always;margin-top:4em; }
 .de img.drop-cap { float: left; margin: 0 0.5em 0 0; position: relative; z-index: 1; }
 .de .linegroup { display:block;text-indent: 0; margin-top: 0.25em; margin-bottom: 0.25em; }
 .de .linegroup .group {margin-left:4em;}
-.de .linegroup .line {display:block;float:left;}
+.de .linegroup .line {display:block;float:left;width:51%}
 .de .dc-first-line {display:block;}
 .de .dc-first-line:first-letter { color: transparent; visibility: hidden; margin-left: -1.1em; }
 .de .dc-first-word {text-transform:uppercase; display:inline;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de div.clear {clear:both;}
-
 
 // REGEX
 
