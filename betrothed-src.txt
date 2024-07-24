@@ -15,7 +15,25 @@
 
 // MACROS
 
+// Headers for individual poems
+.dm poem-header $1 $2 // $1 is the title, $2 is the image filename
+.pb
+.sp 2
+.dv class="poem-title-block"
+<img class="centred" src="../etc/placeholder.jpg" width="100px">
+.h2 id=$2
+$1.
+.sp 2
+<img class="centred" src="../etc/placeholder.jpg"  width="100px">
+.sp 2
+.dv-
+.dm-
+
 // CLASS DEFINITIONS
+
+.de div.poem-title-block {page-break-before:always;}
+
+.de img.centred {display:block;margin-left:auto;margin-right:auto}
 
 .de .transcribers-notes { width: 80%; margin: auto; padding: 0 1em; \
 background-color: #E3E4FA; border: 1px solid silver; \
@@ -124,11 +142,8 @@ A SPRING IDYL,       28
 .pn 5
 
 
-
-
-My Betrothed.
-
-[Illustration]
+// My Betrothed.
+.pm poem-header "My Betrothed" my-betrothed
 
 
 /*
@@ -548,9 +563,8 @@ My Roberta, is by me!
 
 
 
-Genius Imprisoned.
-
-[Illustration]
+//Genius Imprisoned.
+.pm poem-header "Genius Imprisoned" genius-imprisoned
 
 
 /*
@@ -666,9 +680,9 @@ And fade and die imprisoned.
 
 
 
-I Love You.
+// I Love You.
+.pm poem-header "I Love You" i-love-you
 
-[Illustration]
 
 
 /*
@@ -718,9 +732,9 @@ But I will love you till I die,
 
 
 
-Self.
+//Self.
+.pm poem-header "Self" self
 
-[Illustration]
 
 
 /*
@@ -750,9 +764,8 @@ The better by their deeds.
 
 
 
-In the Firelight.
-
-[Illustration]
+// In the Firelight.
+.pm poem-header "In the Fireloght" in-the-firelight
 
 
 /*
@@ -829,9 +842,8 @@ And soothe me in my slumber;
 
 
 
-To the Egotist.
-
-[Illustration]
+// To the Egotist.
+.pm poem-header "To the Egotist" to-the-egotist
 
 
 /*
@@ -869,9 +881,8 @@ The universe, and the thought affords me pleasure.
 
 
 
-A Picture.
-
-[Illustration]
+// A Picture.
+.pm poem-header "A Picture" a-picture
 
 
 /*
@@ -901,9 +912,8 @@ Who could see without admiring an impassioned girl like this?
 
 
 
-The Purity of Passion.
-
-[Illustration]
+// The Purity of Passion.
+.pm poem-header "The Purity of Passion" the-purity-of-passion
 
 
 /*
@@ -930,9 +940,9 @@ So—in perfect health and reason—
 
 
 
-Love’s Content.
+// Love’s Content.
+.pm poem-header "Love’s Content" loves-content
 
-[Illustration]
 
 
 /*
@@ -947,9 +957,8 @@ But, when you hold me in your arms and kiss me,
 
 
 
-He Loved Her.
-
-[Illustration]
+// He Loved Her.
+.pm poem-header "He Loved Her" he-loved-her
 
 
 /*
@@ -983,9 +992,8 @@ Alas! never, poor girl! For her lover was dumb.
 
 
 
-Relativity.
-
-[Illustration]
+// Relativity.
+.pm poem-header "Relativity" relativity
 
 
 /*
@@ -1020,9 +1028,9 @@ Mankind would be a unit,
 
 
 
-A Spring Idyl.
+// A Spring Idyl.
+.pm poem-header "A Spring Idyl" a-spring-idyl
 
-[Illustration]
 
 
 /*
