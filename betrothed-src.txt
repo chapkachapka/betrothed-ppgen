@@ -32,9 +32,9 @@ $1.
 .dm first-line $1 $2 $3
 .if h
 .dv class="cap-poem"
-@dc1@$1@dc2@
+<div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
 .nf
-@dc3@$2@dc4@ $3@dc5@
+<div class='dc-first-line'><span class="dc-first-word">$2</span> $3</div>
 .if-
 .if t
 .dv class="cap-poem"
@@ -71,13 +71,6 @@ page-break-before:always;margin-top:4em; }
 .de div.clear {clear:both;}
 
 // REGEX
-
-// Drop-cap images
-.sr h §@dc1@§<div class='drop-cap-image'><img class='drop-cap' src='images/§
-.sr h §@dc2@§' width=100px></div>§
-.sr h §@dc3@§<div class='dc-first-line'><span class="dc-first-word">§
-.sr h §@dc4@§</span>§
-.sr h §@dc5@§</div>§
 
 // END OF HEADER
 
