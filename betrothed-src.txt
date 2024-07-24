@@ -197,7 +197,7 @@ Has had being, has existed.
 // My Betrothed.
 .pm poem-header "My Betrothed TEST 2" my-betrothed-temp
 
-.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted'
+.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
