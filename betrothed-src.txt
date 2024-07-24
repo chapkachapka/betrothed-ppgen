@@ -29,6 +29,25 @@ $1.
 .dv-
 .dm-
 
+.dm first-line $1 $2 $3
+.if h
+.dv class="cap-poem"
+@dc1@$1@dc2@
+.nf
+@dc3@$2@dc4@ $3@dc5@
+.if-
+.if t
+.dv class="cap-poem"
+.nf
+$2 $3
+.if-
+.dm-
+
+.dm end-of-poem
+.nf-
+.dv-
+.dm-
+
 // CLASS DEFINITIONS
 
 .de div.poem-title-block {page-break-before:always;}
@@ -50,7 +69,6 @@ page-break-before:always;margin-top:4em; }
 .de .dc-first-word {text-transform:uppercase; display:inline;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de div.clear {clear:both;}
-
 
 
 // REGEX
@@ -165,7 +183,6 @@ A SPRING IDYL,       28
 // My Betrothed.
 .pm poem-header "My Betrothed TEST" my-betrothed-temp
 
-
 .dv class="cap-poem"
 @dc1@temp-dc.png@dc2@
 .nf
@@ -177,8 +194,18 @@ My sweet blossom, my Roberta,
 Has had being, has existed.
 .nf-
 .dv-
-//.dv class="clear"
-//.dv-
+
+// My Betrothed.
+.pm poem-header "My Betrothed TEST 2" my-betrothed-temp
+
+.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted'
+Scarcely eighteen merry summers,
+And as many merry winters,
+Have elapsed since my Roberta,
+My sweet blossom, my Roberta,
+Has had being, has existed.
+.pm end-of-poem
+
 
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed
