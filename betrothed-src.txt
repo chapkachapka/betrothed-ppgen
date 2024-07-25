@@ -8,6 +8,30 @@
 
 .dt My Betrothed and Other Poems | Project Gutenberg
 
+// PLACEHOLDERS
+
+.dm ph-start $1
+.if h
+<div style="width:35%;background-color:#DDFFDD;border:3px solid black;margin:auto;padding:1em;text-align:center;">
+<div style="margin:1em auto 1em auto">$1 Placeholder</div>
+.if-
+.if t
+.ce
+$1 Placeholder
+.if-
+.dm-
+
+.dm ph-end
+.if h
+</div>
+.if-
+.dm-
+
+.dm ph $1
+.pm ph-start $1
+.pm ph-end
+.dm-
+
 // REGISTERS
 
 .nr psi .5em
@@ -18,13 +42,14 @@
 // Headers for individual poems
 .dm poem-header $1 $2 // $1 is the title, $2 is the image filename
 .pb
-.sp 2
 .dv class="poem-title-block"
-<img class="centred" src="../etc/placeholder.jpg" width="100px">
+.pm ph-start 'Decorative Chapter Title'
+.pm ph-end
 .h2 id=$2
 $1.
 .sp 2
-<img class="centred" src="../etc/placeholder.jpg"  width="100px">
+.pm ph-start 'Decorative Line'
+.pm ph-end
 .sp 2
 .dv-
 .dm-
@@ -72,9 +97,8 @@ page-break-before:always;margin-top:4em; }
 
 // REGEX
 
-// Convert line divs to spans and mark the first line of each poem
-.sr h §<div class='line'>(.*)</div>§<span class='line'>\1</span>§
-.sr h §<span class='line'><span class='first-word'>§<span class='first-line'><span class='first-word'>§
+// Mark the first line of each poem
+.sr h §<div class='line'><span class='first-word'>§<div class='first-line'><span class='first-word'>§
 
 // Remove soft hyphens from plain text version
 .sr t §­§§
@@ -83,89 +107,91 @@ page-break-before:always;margin-top:4em; }
 
 // START OF FRONT MATTER
 
-
+//Frontispiece
 .bn 001.png
 
-[Illustration:
-
-/*
+.pm ph-start Frontispiece
 <i>Respectfully
 Lizzie Magie</i>
-*/
-][**handwritten signature]
+.pm ph-end
+
+.pb
 .bn 002.png
 
-
-
-
-/*
+.pm ph-start Cover Page Image
 [**ornament]
 My Betrothed [**ornament]
 [**ornament]
 and
 [**ornament] Other Poems
+.pm ph-end
 
-BY
 
-LIZZIE MAGIE.
 
+.h1
+My Betrothed||and||Other Poems
+
+.ce
+<s>BY</s>
+
+.ce
+<l>LIZZIE MAGIE.</l>
+
+.sp 2
+
+.nf
 If perhaps these rhymes of mine should sound not well in strangers’ ears,
 They have only to bethink them that it happens so with theirs;
 For so long as words, like mortals, call a fatherland their own,
 They will be most highly valued where they are best and longest known.
+.nf-
 
+.rj
 <i>Longfellow.</i>
 
-THE BRODIX PUBLISHING COMPANY,
-1892.
-*/
+.sp 2
+
+.ce 2
+<s>THE BRODIX PUBLISHING COMPANY,
+1892.</s>
+
+
+.pb
+
 .bn 003.png
+.sp 4
 
 
 
-
-
-/*
+.ce 3
 Copyright, 1892,
 By <sc>Lizzie Magie</sc>,
 229 H St., N. E., Washington, D. C.
-*/
+
+.pb
 .bn 004.png
 
+.pm ph-start 'Index Illustration'
+.pm ph-end
 
+.h2
+Index
 
-
-
-[Illustration: Index.]
-
-
-/*
-      PAGE
-
-MY BETROTHED,      5
-
-GENIUS IMPRISONED,      16
-
-I LOVE YOU,         19
-
-SELF,        20
-
-IN THE FIRELIGHT,       21
-
-TO THE EGOTIST <sc>AND</sc> THE ANSWER,       23
-
-A PICTURE,        24
-
-THE PURITY OF PASSION,       25
-
-LOVE’S CONTENT,       25
-
-HE LOVED HER,        26
-
-RELATIVITY,        27
-
-A SPRING IDYL,       28
-*/
+.ta lr
+<th>|PAGE
+MY BETROTHED,|5
+GENIUS IMPRISONED,|16
+I LOVE YOU,|19
+SELF,|20
+IN THE FIRELIGHT,|21
+TO THE EGOTIST <sc>AND</sc> THE ANSWER,|23
+A PICTURE,|24
+THE PURITY OF PASSION,|25
+LOVE’S CONTENT,|25
+HE LOVED HER,|26
+RELATIVITY,|27
+A SPRING IDYL,|28
+.ta-
 
 // END OF FRONT MATTER
 
@@ -173,6 +199,9 @@ A SPRING IDYL,       28
 
 // Set paragraph settings for main text
 .pi
+.if t
+.in 2
+.if-
 
 
 .bn 006.png
@@ -209,11 +238,8 @@ And I wearied soon without her,
 Wearied soon without Roberta,
 My sweet blossom, my Roberta,
 Whom I called my baby sweetheart,
-*/
 .bn 007.png
 .pn +1
-/*
-
 [**new stanza?]She that was my merry playmate,
 She whom I had watched mature.
 Then I realized I loved her,
@@ -248,10 +274,8 @@ Then her merry laugh grew fainter,
 And she came and stood beside me,
 Looked up in my face serenely,
 Smiled up at me softly, sweetly,
-*/
 .bn 008.png
 .pn +1
-/*
 Smiled with eyes and smiled with lips.
 Then she hid her face so shyly,
 Hid her face upon my bosom,
@@ -286,10 +310,8 @@ Love that stirs the fire of passion,
 Warms and thrills the hardened bosom,
 Moves the gentle heart to madness,
 Makes the saddest light and merry,
-*/
 .bn 009.png
 .pn +1
-/*
 Makes the happiest despair.
 Love that bows the proudest spirit,
 Bends the firmest like the willow,
@@ -324,11 +346,9 @@ Supple, lissom little body,
 Harmony in every outline,
 Grace and beauty in each movement,
 Simple, pretty, artless charms.
-*/
 .bn 010.png
 .pn +1
-/*
-Soft her skin as new-born baby’s,
+[**new stanza?]Soft her skin as new-born baby’s,
 Soft and tender as a roseleaf,
 Creamy pink, without a blemish,
 Blend the lily’s pearly tintings
@@ -362,10 +382,8 @@ She is not a brilliant scholar;
 Little knows she of the classics,
 And but little more of figures;
 Grammar lessons bore and vex her,
-*/
 .bn 011.png
 .pn +1
-/*
 History is dull and irksome,
 Nothing cares she for the past;
 Scarce a thought she gives the future;
@@ -400,10 +418,8 @@ I have drawn from her an answer
 To my eager, hasty wooing,
 To my over-zealous pleading,
 To my passionate appeals.
-*/
 .bn 012.png
 .pn +1
-/*
 Much too early I approached her,
 Much too early in good judgment,
 But I feared to leave my treasure
@@ -438,10 +454,8 @@ Knew my darling’s love was mine.
 
 Once I kissed her, kissed her warmly,
 While she nestled on my bosom
-*/
 .bn 013.png
 .pn +1
-/*
 In her playful, childish manner,
 In her loving, trusting way.
 We were standing in the shadow,
@@ -476,10 +490,8 @@ Playfully my hair she rumples,
 Playfully my ear she pinches,
 Lovingly my cheek she kisses,
 Lovingly my hand caresses,
-*/
 .bn 014.png
 .pn +1
-/*
 With the purity of childhood,
 Budding into maiden charms.
 Tells me then how much she loves me,
@@ -514,10 +526,8 @@ Careless, thoughtless little girl!
 
 My Roberta loves me fondly,
 Loves me with sincere devotion,
-*/
 .bn 015.png
 .pn +1
-/*
 With a tender, true affection,
 With a sweet and simple love.
 Slumbers yet her deeper nature,
@@ -552,10 +562,8 @@ Sweeter raptures and emotions
 Than she ever yet has known.
 But not yet must I disturb her,
 Yet awhile must I be patient,
-*/
 .bn 016.png
 .pn +1
-/*
 Yet awhile delay the blisses
 Of her first impassioned kisses,
 Yet awhile endure the longing
@@ -604,8 +612,7 @@ My Roberta, is by me!
 .pm poem-header "Genius Imprisoned" genius-imprisoned
 
 
-/*
-In a dark and dingy place,
+.pm first-line 'temp-dc.png' 'In' 'a dark and dingy place,'
 Surrounded by the sombre, dull-hued things
 Of daily business life,
 A youth, a pale and wan, though handsome youth,
@@ -633,10 +640,8 @@ And fast and fast approaching.
 The pen, unheeded, slips and falls
 From out his loosened hand.
 His tear-stained eyes dance wildly
-*/
 .bn 018.png
 .pn +1
-/*
 To the merry peals;
 His thin lips part in sweet, sad smiles;
 He stands enraptured, charmed and joy-bewildered!
@@ -671,10 +676,8 @@ The music stopped,
 The poem curtly ended,
 That youthful face,
 So lately lit with ecstasy of joy,
-*/
 .bn 019.png
 .pn +1
-/*
 Wears now a look of keen and sharp-felt pain.
 “Tick, tock,” work, work, “tick, tock,” work, work!
 
@@ -708,9 +711,10 @@ And, like some caged wild bird,
 Flap their wings and cry for liberty,
 But find it not,
 And fade and die imprisoned.
-*/
+.pm end-of-poem
 
-[Illustration]
+.pm ph 'Dingbat'
+
 .bn 020.png
 .pn +1
 
@@ -722,8 +726,7 @@ And fade and die imprisoned.
 
 
 
-/*
-I love you fondly, deeply, truly;
+.pm first-line 'temp-dc.png' 'I' 'love you fondly, deeply, truly;'
 My heart rejoices with its load[**indent to match next stanza pattern?]
   Of fondness, all on you bestowed.
         I smile and sigh,
@@ -751,10 +754,8 @@ I love you. My whole heart you’ve taken;
   But I have yours to fill the void,
   And so my breast is overjoyed.
         What joy is mine
-*/
 .bn 021.png
 .pn +1
-/*
         When words of thine
   Bid sorrow fly and hope awaken!
     And all because I love you.
@@ -762,9 +763,9 @@ You may forsake me by-and-by,
 But I will love you till I die,
   For only death can steal the bliss
     I feel because I love you.
-*/
+.pm end-of-poem
 
-[Illustration]
+.pm ph 'Dingbat'
 
 
 
@@ -774,8 +775,7 @@ But I will love you till I die,
 
 
 
-/*
-All, all are selfish.
+.pm first-line 'temp-dc.png' 'All,' 'all are selfish.'
 There is not one who does not live himself to please.
 Life holds for each no other aim or object
 Than to gratify and satisfy his own ambitions and desires.
@@ -794,19 +794,17 @@ The happiest are those who are to others kindest,
 And who cause most happiness to all.
 The great are those who make the world
 The better by their deeds.
-*/
+.pm end-of-poem
+
 .bn 022.png
 .pn +1
 
 
-
-
 // In the Firelight.
-.pm poem-header "In the Fireloght" in-the-firelight
+.pm poem-header "In the Firelight" in-the-firelight
 
 
-/*
-      The daylight gone,
+.pm first-line 'temp-dc.png' 'The' 'daylight gone,'
       The curtains drawn,
 The evening meal completed;[**F1:based on other stanzas]
       My bird abed,
@@ -833,11 +831,9 @@ Beneath my feet is dozing.
       The firelight falls
       Upon the walls,
 The pictures half exposing.
-*/
 .bn 023.png
 .pn +1
 
-/*
       The flashing light,
       Now dull, now bright,
 Makes objects queer look queerer.
@@ -872,7 +868,8 @@ And soothe me in my slumber;
       My soul entice
       To Paradise,
 ’Mid pleasures without number.
-*/
+.pm end-of-poem
+
 .bn 024.png
 .pn +1
 
@@ -883,8 +880,7 @@ And soothe me in my slumber;
 .pm poem-header "To the Egotist" to-the-egotist
 
 
-/*
-Think of this earth, this great revolving globe,
+.pm first-line 'temp-dc.png' 'Think' 'of this earth, this great revolving globe,'
 That whirls along its boundless path,
 Through the immensity of space!
 Think of the multitude of stars
@@ -896,12 +892,10 @@ Vast orbs of living fire;
 Think of this endless wilderness of worlds,
 The universe!
 And what are you?
-*/
 
+.ce
+<l>THE ANSWER.</l>
 
-THE ANSWER.
-
-/*
 I am an atom in the universe;
 I am composed of myriads of atoms
 That are each composed of countless atoms more.
@@ -911,7 +905,8 @@ I see, I hear, I feel, I speak.
 I <i>think</i> of this vast wilderness of worlds,
 The universe, and the thought affords me pleasure.
 <i>Can it</i> think of me?
-*/
+.pm end-of-poem
+
 .bn 025.png
 .pn +1
 
@@ -922,8 +917,7 @@ The universe, and the thought affords me pleasure.
 .pm poem-header "A Picture" a-picture
 
 
-/*
-Tall and stately, well-developed, graceful as a willow bough,
+.pm first-line 'temp-dc.png' 'Tall' 'and stately, well-developed, graceful as a willow bough,'
 Dark, luxuriant, glossy ringlets clust’ring o’er a noble brow;
   Pearly, rounded arms and shoulders, long and slender pink-tipped hands;
   Clasped above one dimpled elbow glitter two, broad golden bands.
@@ -940,9 +934,10 @@ Silken lashes lightly resting on soft cheeks of healthy hue.
   Even teeth of gleaming whiteness in a small mouth half shut in;
 Full, ripe lips—a fount of sweetness—ever pleading for a kiss.
 Who could see without admiring an impassioned girl like this?
-*/
+.pm end-of-poem
 
-[Illustration]
+.pm ph 'Dingbat'
+
 .bn 026.png
 .pn +1
 
@@ -953,8 +948,7 @@ Who could see without admiring an impassioned girl like this?
 .pm poem-header "The Purity of Passion" the-purity-of-passion
 
 
-/*
-As the sunshine wooes the water
+.pm first-line 'temp-dc.png' 'As' 'the sunshine wooes the water'
   Till it gleams with glad’ning smiles,
 And the burning earth’s bare beauty
   The soothing cloud beguiles;
@@ -970,11 +964,9 @@ As the planets in their orbits
   Their satellites allure,
 So—in perfect health and reason—
   Is Love’s passion to the pure.
-*/
+.pm end-of-poem
 
-[Illustration]
-
-
+.pm ph 'Dingbat'
 
 
 // Love’s Content.
@@ -982,12 +974,11 @@ So—in perfect health and reason—
 
 
 
-/*
-O darling, there is in this great world of ours
+.pm first-line 'temp-dc.png' 'O' 'darling, there is in this great world of ours'
   So much, so very much sadness,
 But, when you hold me in your arms and kiss me,
   I feel only joy and gladness.
-*/
+.pm end-of-poem
 .bn 027.png
 .pn +1
 
@@ -998,8 +989,7 @@ But, when you hold me in your arms and kiss me,
 .pm poem-header "He Loved Her" he-loved-her
 
 
-/*
-He loved her. His blue eyes looked lovingly down into hers
+.pm first-line 'temp-dc.png' 'He' 'loved her. His blue eyes looked lovingly down into hers'
   And read there an answer responsive and true.
 She knew that he loved her. His eyes told the tale of his love,
   Those half-closed, kind eyes of such soft, melting blue.
@@ -1022,7 +1012,7 @@ She knew that he loved her. With passionate tenderness then
 Would the sweet, longed-for words from his lips never come?
 Alas! never, poor girl! For her lover was dumb.
   O what exquisite joy was denied her!
-*/
+.pm end-of-poem
 .bn 028.png
 .pn +1
 
@@ -1033,8 +1023,7 @@ Alas! never, poor girl! For her lover was dumb.
 .pm poem-header "Relativity" relativity
 
 
-/*
-If all the flowers were roses,
+.pm first-line 'temp-dc.png' 'If' 'all the flowers were roses,'
   A rose would not be rare;
 If all the days were cloudless,
   We’d call not any fair.
@@ -1058,7 +1047,7 @@ If people did not differ
   In sentiment and thought,
 Mankind would be a unit,
   And life would be for naught.
-*/
+.pm end-of-poem
 .bn 029.png
 .pn +1
 
@@ -1070,8 +1059,7 @@ Mankind would be a unit,
 
 
 
-/*
-        On the branches of the trees
+.pm first-line 'temp-dc.png' 'On' 'the branches of the trees'
         In the summer morning breeze,
         Many merry, happy birds
         Sing their songs to flocks and herds.
@@ -1099,10 +1087,8 @@ See how she eagerly, joyfully, gratefully
               Why is he waiting,
               Shy, hesitating?
     Surely that maid knows the love in his heart.
-*/
 .bn 030.png
 .pn +1
-/*
               Why does he blush so?
               Why does she flush so?
     Ah, he has told her! What joy lights her face!
@@ -1118,9 +1104,9 @@ Screened by the wide-spreading, friendly old maple tree,
   Bathed in the glorious sunshine they stand.
 Together, then, leave them in sacred communion—
   Holy affections deep reverence command.
-*/
+.pm end-of-poem
 
-[Illustration]
+.pm ph 'Dingbat'
 
 // END OF MAIN TEXT
 
