@@ -87,10 +87,9 @@ page-break-before:always;margin-top:4em; }
 
 
 // Image drop caps
-.de img.drop-cap { float: left; margin: 0 1.25em 0 0; position: relative; z-index: 1; }
+.de img.drop-cap { float: left; margin: 0 3.25em 0 0; position: relative; z-index: 1; }
 .de .linegroup {display:inline;}
 .de .line, .first-line {display:block;}
-.de .linegroup .line, .linegroup .first-line { text-indent: -1em; padding-left: 1em; }
 .de .first-word {text-transform:uppercase;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
@@ -98,7 +97,7 @@ page-break-before:always;margin-top:4em; }
 // REGEX
 
 // Mark the first line of each poem
-.sr h §<div class='line'><span class='first-word'>§<div class='first-line'><span class='first-word'>§
+.sr h §<div class='line'><span class='first-word'>§<div class='line first-line'><span class='first-word'>§
 
 // Remove soft hyphens from plain text version
 .sr t §­§§
