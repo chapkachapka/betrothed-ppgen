@@ -29,27 +29,12 @@ $1.
 .dv-
 .dm-
 
-.dm first-line-div $1 $2 $3
-.if h
-.dv class="cap-poem"
-<div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
-.nf
-<div class='dc-first-line'><span class="dc-first-word">$2</span> $3</div>
-.if-
-.if t
-.dv class="cap-poem"
-.nf
-$2 $3
-.if-
-.dm-
-
-.dm first-line-span $1 $2 $3
+.dm first-line $1 $2 $3
 .if h
 .dv class='cap-poem'
-//@p class='stanza'@
 <div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
 .nf
-<span class="dc-first-word">$2</span> $3
+<span class='first-word'>$2</span> $3
 .if-
 .if t
 .dv class='cap-poem'
@@ -59,7 +44,6 @@ $2 $3
 .dm-
 
 .dm end-of-poem
-//@/p@
 .nf-
 .dv-
 .dm-
@@ -76,26 +60,19 @@ page-break-before:always;margin-top:4em; }
 
 
 // Image drop caps
-.de img.drop-cap { float: left; margin: 0 0.5em 0 0; position: relative; z-index: 1; }
-.de .linegroup { display:block;text-indent: 0; margin-top: 0.25em; margin-bottom: 0.25em; }
-.de .linegroup .group {margin-left:4em;}
-.de .linegroup .line, .linegroup .first-line {float:left;}
-.de .test-2 .dc-first-line:first-letter { color: transparent; visibility: hidden; margin-left: -1.1em; display:inline;}
-.de .dc-first-word {text-transform:uppercase; display:inline;}
+.de img.drop-cap { float: left; margin: 0 3.25em 0 0; position: relative; z-index: 1; }
+.de .linegroup {display:inline;}
+.de .line, .first-line {display:block;}
+.de .line, .first-line { text-indent: -3em; padding-left: 3em; }
+.de .first-word {text-transform:uppercase;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
-
-.de .test-3 .first-line::first-letter {color: transparent; visibility: hidden; margin-left: -1.1em;}
-
-//.de .test-3 .first-line {float:left;position:absolute;}
-//.de .test-3 .line {display:block;}
-
-//.de .test-3 .first-line {flex-wrap:wrap;}
+.de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
 
 // REGEX
 
-.sr h §<div class='line'>(.*)</div>§<span class='line'>\1</span><br>§
+.sr h §<div class='line'>(.*)</div>§<span class='line'>\1</span>§
 
-.sr h §<span class='line'><span class="dc-first-word">§<span class='first-line'><span class="dc-first-word">§
+.sr h §<span class='line'><span class='first-word'>§<span class='first-line'><span class='first-word'>§
 
 // END OF HEADER
 
@@ -193,28 +170,15 @@ A SPRING IDYL,       28
 .pi
 
 
-
 .bn 006.png
 .pn 5
 
-.dv class='test-2'
-// My Betrothed.
-.pm poem-header "My Betrothed TEST 2 (div)" my-betrothed-temp
-
-.pm first-line-div 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
-Scarcely eighteen merry summers,
-And as many merry winters,
-Have elapsed since my Roberta,
-My sweet blossom, my Roberta,
-Has had being, has existed.
-.pm end-of-poem
-.dv-
 
 .dv class='test-3'
 // My Betrothed.
 .pm poem-header "My Betrothed TEST 3 (span)" my-betrothed-temp
 
-.pm first-line-span 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
+.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
@@ -235,8 +199,13 @@ Rosy, dimpled, baby fingers.
 
 
 .di temp-dc.png 200 150 1.1
-Scarcely eighteen years have flitted,
-Scarcely eighteen merry summers,
+Scarcely eighteen 
+
+years have flitted,
+
+Scarcely eighteen
+
+merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
 My sweet blossom, my Roberta,
