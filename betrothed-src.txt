@@ -29,7 +29,7 @@ $1.
 .dv-
 .dm-
 
-.dm first-line $1 $2 $3
+.dm first-line-div $1 $2 $3
 .if h
 .dv class="cap-poem"
 <div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
@@ -43,7 +43,23 @@ $2 $3
 .if-
 .dm-
 
+.dm first-line-span $1 $2 $3
+.if h
+.dv class='cap-poem'
+//@p class='stanza'@
+<div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
+.nf
+<span class="dc-first-word">$2</span> $3
+.if-
+.if t
+.dv class='cap-poem'
+.nf
+$2 $3
+.if-
+.dm-
+
 .dm end-of-poem
+//@/p@
 .nf-
 .dv-
 .dm-
@@ -63,14 +79,23 @@ page-break-before:always;margin-top:4em; }
 .de img.drop-cap { float: left; margin: 0 0.5em 0 0; position: relative; z-index: 1; }
 .de .linegroup { display:block;text-indent: 0; margin-top: 0.25em; margin-bottom: 0.25em; }
 .de .linegroup .group {margin-left:4em;}
-.de .linegroup .line {display:block;float:left;width:51%}
-.de .dc-first-line {display:block;}
-.de .dc-first-line:first-letter { color: transparent; visibility: hidden; margin-left: -1.1em; }
+.de .linegroup .line, .linegroup .first-line {float:left;}
+.de .test-2 .dc-first-line:first-letter { color: transparent; visibility: hidden; margin-left: -1.1em; display:inline;}
 .de .dc-first-word {text-transform:uppercase; display:inline;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
-.de div.clear {clear:both;}
+
+.de .test-3 .first-line::first-letter {color: transparent; visibility: hidden; margin-left: -1.1em;}
+
+//.de .test-3 .first-line {float:left;position:absolute;}
+//.de .test-3 .line {display:block;}
+
+//.de .test-3 .first-line {flex-wrap:wrap;}
 
 // REGEX
+
+.sr h §<div class='line'>(.*)</div>§<span class='line'>\1</span><br>§
+
+.sr h §<span class='line'><span class="dc-first-word">§<span class='first-line'><span class="dc-first-word">§
 
 // END OF HEADER
 
@@ -172,31 +197,37 @@ A SPRING IDYL,       28
 .bn 006.png
 .pn 5
 
+.dv class='test-2'
 // My Betrothed.
-.pm poem-header "My Betrothed TEST" my-betrothed-temp
+.pm poem-header "My Betrothed TEST 2 (div)" my-betrothed-temp
 
-.dv class="cap-poem"
-@dc1@temp-dc.png@dc2@
-.nf
-@dc3@Scarcely@dc4@ eighteen years have flitted,@dc5@
-Scarcely eighteen merry summers,
-And as many merry winters,
-Have elapsed since my Roberta,
-My sweet blossom, my Roberta,
-Has had being, has existed.
-.nf-
-.dv-
-
-// My Betrothed.
-.pm poem-header "My Betrothed TEST 2" my-betrothed-temp
-
-.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
+.pm first-line-div 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
 My sweet blossom, my Roberta,
 Has had being, has existed.
 .pm end-of-poem
+.dv-
+
+.dv class='test-3'
+// My Betrothed.
+.pm poem-header "My Betrothed TEST 3 (span)" my-betrothed-temp
+
+.pm first-line-span 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
+Scarcely eighteen merry summers,
+And as many merry winters,
+Have elapsed since my Roberta,
+My sweet blossom, my Roberta,
+Has had being, has existed.
+
+I have watched her in her cradle,
+When she cooed and wooed the sunshine,
+Tried to catch it in her fingers,
+Rosy, dimpled, baby fingers.
+
+.pm end-of-poem
+.dv-
 
 
 // My Betrothed.
