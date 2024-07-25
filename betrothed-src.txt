@@ -31,7 +31,7 @@ $1.
 
 .dm first-line $1 $2 $3
 .if h
-.dv class='cap-poem'
+.dv class='poem'
 <div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
 .nf
 <span class='first-word'>$2</span> $3
@@ -52,6 +52,8 @@ $2 $3
 
 .de div.poem-title-block {page-break-before:always;}
 
+.de div.poem {max-width:85%;margin-right:auto;margin-left:auto;}
+
 .de img.centred {display:block;margin-left:auto;margin-right:auto}
 
 .de .transcribers-notes { width: 80%; margin: auto; padding: 0 1em; \
@@ -60,19 +62,22 @@ page-break-before:always;margin-top:4em; }
 
 
 // Image drop caps
-.de img.drop-cap { float: left; margin: 0 3.25em 0 0; position: relative; z-index: 1; }
+.de img.drop-cap { float: left; margin: 0 1.25em 0 0; position: relative; z-index: 1; }
 .de .linegroup {display:inline;}
 .de .line, .first-line {display:block;}
-.de .line, .first-line { text-indent: -3em; padding-left: 3em; }
+.de .linegroup .line, .linegroup .first-line { text-indent: -1em; padding-left: 1em; }
 .de .first-word {text-transform:uppercase;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
 
 // REGEX
 
+// Convert line divs to spans and mark the first line of each poem
 .sr h §<div class='line'>(.*)</div>§<span class='line'>\1</span>§
-
 .sr h §<span class='line'><span class='first-word'>§<span class='first-line'><span class='first-word'>§
+
+// Remove soft hyphens from plain text version
+.sr t §­§§
 
 // END OF HEADER
 
@@ -174,44 +179,16 @@ A SPRING IDYL,       28
 .pn 5
 
 
-.dv class='test-3'
 // My Betrothed.
-.pm poem-header "My Betrothed TEST 3 (span)" my-betrothed-temp
+.pm poem-header "My Betrothed" my-betrothed
 
-.pm first-line 'temp-dc.png' 'Scarcely' 'eighteen years have flitted,'
+.pm first-line 'temp-dc.png' 'Scar­ce­ly' 'eighteen years have flitted,'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
 My sweet blossom, my Roberta,
 Has had being, has existed.
 
-I have watched her in her cradle,
-When she cooed and wooed the sunshine,
-Tried to catch it in her fingers,
-Rosy, dimpled, baby fingers.
-
-.pm end-of-poem
-.dv-
-
-
-// My Betrothed.
-.pm poem-header "My Betrothed" my-betrothed
-
-
-.di temp-dc.png 200 150 1.1
-Scarcely eighteen 
-
-years have flitted,
-
-Scarcely eighteen
-
-merry summers,
-And as many merry winters,
-Have elapsed since my Roberta,
-My sweet blossom, my Roberta,
-Has had being, has existed.
-
-.nf
 I have watched her in her cradle,
 When she cooed and wooed the sunshine,
 Tried to catch it in her fingers,
@@ -614,7 +591,7 @@ So beloved by another,
 So adored and so beloved,
 As Roberta, sweet Roberta,
 My Roberta, is by me!
-.nf-
+.pm end-of-poem
 
 
 .bn 017.png
