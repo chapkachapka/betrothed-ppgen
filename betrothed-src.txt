@@ -42,16 +42,16 @@ $1 Placeholder
 // Headers for individual poems
 .dm poem-header $1 $2 // $1 is the title, $2 is the image filename
 .pb
-.dv class="poem-title-block"
+<div class="poem-title-block" id="$2">
 .pm ph-start 'Decorative Chapter Title'
 .pm ph-end
-.h2 id=$2
+.h2
 $1.
 .sp 2
 .pm ph-start 'Decorative Line'
 .pm ph-end
 .sp 2
-.dv-
+</div>
 .dm-
 
 .dm first-line $1 $2 $3
@@ -178,18 +178,18 @@ Index
 
 .ta lr
 <th>|PAGE
-MY BETROTHED,|5
-GENIUS IMPRISONED,|16
-I LOVE YOU,|19
-SELF,|20
-IN THE FIRELIGHT,|21
-TO THE EGOTIST <sc>AND</sc> THE ANSWER,|23
-A PICTURE,|24
-THE PURITY OF PASSION,|25
-LOVE’S CONTENT,|25
-HE LOVED HER,|26
-RELATIVITY,|27
-A SPRING IDYL,|28
+MY BETROTHED,|#5:my-betrothed#
+GENIUS IMPRISONED,|#16:genius-imprisoned#
+I LOVE YOU,|#19:i-love-you#
+SELF,|#20:self#
+IN THE FIRELIGHT,|#21:in-the-firelight#
+TO THE EGOTIST <sc>AND</sc> THE ANSWER,|#23:to-the-egotist#
+A PICTURE,|#24:a-picture#
+THE PURITY OF PASSION,|#25:the-purity-of-passion#
+LOVE’S CONTENT,|#25:loves-content#
+HE LOVED HER,|#26:he-loved-her#
+RELATIVITY,|#27:relativity#
+A SPRING IDYL,|#28:a-spring-idyl#
 .ta-
 
 // END OF FRONT MATTER
