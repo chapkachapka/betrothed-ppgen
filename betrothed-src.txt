@@ -901,9 +901,9 @@ That are each composed of countless atoms more.
 I am a moving, breathing, living human being.
 I am I!
 I see, I hear, I feel, I speak.
-I <i>think</i> of this vast wilderness of worlds,
+I <em>think</em> of this vast wilderness of worlds,
 The universe, and the thought affords me pleasure.
-<i>Can it</i> think of me?
+<em>Can it</em> think of me?
 .pm end-of-poem
 
 .bn 025.png
@@ -1119,7 +1119,7 @@ Together, then, leave them in sacred communion—
 .sp 2
 
 .if t
-This file uses <i>underscores</i> to indicate italic text.
+This file uses <em>underscores</em> to indicate italic text.
 .if-
 Itemized changes from the original text:
 .ul
