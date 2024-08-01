@@ -40,25 +40,28 @@ $1 Placeholder
 // MACROS
 
 // Headers for individual poems
-.dm poem-header $1 $2 // $1 is the title, $2 is the image filename
+.dm poem-header $1 $2 $3 // $1=title, $2=id, $3=line decoration filename
 .pb
+.if h
 <div class="poem-title-block" id="$2">
-.pm ph-start 'Decorative Chapter Title'
-.pm ph-end
+.if-
 .h2
 $1.
 .sp 2
-.pm ph-start 'Decorative Line'
-.pm ph-end
+.pm line-decoration $3
 .sp 2
+.if h
 </div>
+.if-
 .dm-
 
-.dm first-line $1 $2 $3
+// Drop capital and first line
+.dm first-line $1 $2 $3 $4 $5
 .if h
 .dv class='poem'
-<div class='drop-cap-image'><img class='drop-cap' src='images/$1' width=100px></div>
+<div class='drop-cap-image'><img src='images/$1.png' class='drop-cap' style='height:4em; aspect-ratio:$4 / $5; margin:0 3.25em 0 0;'></div>
 .nf
+<span> </span><br/>
 <span class='first-word'>$2</span> $3
 .if-
 .if t
@@ -68,12 +71,26 @@ $2 $3
 .if-
 .dm-
 
+// End of poem
 .dm end-of-poem
 .nf-
 .dv-
 .dm-
 
+// Line Decoration
+.dm line-decoration $1 // filename
+.if h
+<img src='images/$1.png' class='line-decoration centred'>
+.if-
+.if t
+.hr w=20%
+.if-
+.dm-
+
 // CLASS DEFINITIONS
+
+.de h1 {font-size:2.4em;}
+.de h2 {font-size:2em;}
 
 .de div.poem-title-block {page-break-before:always;}
 
@@ -81,13 +98,18 @@ $2 $3
 
 .de img.centred {display:block;margin-left:auto;margin-right:auto}
 
+.de img.line-decoration {width:10em;}
+
 .de .transcribers-notes { width: 80%; margin: auto; padding: 0 1em; \
 background-color: #E3E4FA; border: 1px solid silver; \
 page-break-before:always;margin-top:4em; }
 
+.if h
+.de #index {margin-top:2em;}
+.if-
 
 // Image drop caps
-.de img.drop-cap { float: left; margin: 0 3.25em 0 0; position: relative; z-index: 1; }
+.de img.drop-cap { float:left; position: relative; z-index: 1; margin:0 3.25em 0 0; }
 .de .linegroup {display:inline;}
 .de .line, .first-line {display:block;}
 .de .first-word {text-transform:uppercase;}
@@ -106,25 +128,25 @@ page-break-before:always;margin-top:4em; }
 
 // START OF FRONT MATTER
 
+//Front Cover
+
+.if h
+.il fn=cover.jpg w=80% alt="Book Cover"
+.if-
+
 //Frontispiece
 .bn 001.png
 
-.pm ph-start Frontispiece
-<i>Respectfully
-Lizzie Magie</i>
-.pm ph-end
+.if h
+.il fn=frontispiece.jpg w=80% alt='Frontispiece, signed "Respectfully Lizzie Magie"'
+.if-
 
 .pb
 .bn 002.png
 
-.pm ph-start Cover Page Image
-[**ornament]
-My Betrothed [**ornament]
-[**ornament]
-and
-[**ornament] Other Poems
-.pm ph-end
-
+.if h
+.il fn=title-page.jpg alt="My Betrothed and Other Poems" w=80%
+.if-
 
 
 .h1
@@ -138,7 +160,7 @@ My Betrothed||and||Other Poems
 
 .sp 2
 
-.nf
+.nf b
 If perhaps these rhymes of mine should sound not well in strangers’ ears,
 They have only to bethink them that it happens so with theirs;
 For so long as words, like mortals, call a fatherland their own,
@@ -146,7 +168,7 @@ They will be most highly valued where they are best and longest known.
 .nf-
 
 .rj
-<i>Longfellow.</i>
+<I>Longfellow.</I>
 
 .sp 2
 
@@ -167,13 +189,16 @@ Copyright, 1892,
 By <sc>Lizzie Magie</sc>,
 229 H St., N. E., Washington, D. C.
 
+.sp 2
+
 .pb
 .bn 004.png
 
-.pm ph-start 'Index Illustration'
-.pm ph-end
+.if h
+<img src="images/index-header.png" alt="Index" class="centred" style="height:12em; aspect-ratio:28 / 13;">
+.if-
 
-.h2
+.h2 id=index
 Index
 
 .ta lr
@@ -208,9 +233,9 @@ A SPRING IDYL,|#28:a-spring-idyl#
 
 
 // My Betrothed.
-.pm poem-header "My Betrothed" my-betrothed
+.pm poem-header "My Betrothed" my-betrothed line-decoration-1
 
-.pm first-line 'temp-dc.png' 'Scar­ce­ly' 'eighteen years have flitted,'
+.pm first-line 'capital-s' 'Scar­ce­ly' 'eighteen years have flitted,' 7 4
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
@@ -608,10 +633,10 @@ My Roberta, is by me!
 
 
 //Genius Imprisoned.
-.pm poem-header "Genius Imprisoned" genius-imprisoned
+.pm poem-header "Genius Imprisoned" genius-imprisoned line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'In' 'a dark and dingy place,'
+.pm first-line 'capital-i-1' 'In' 'a dark and dingy place,' '3' '10'
 Surrounded by the sombre, dull-hued things
 Of daily business life,
 A youth, a pale and wan, though handsome youth,
@@ -712,7 +737,7 @@ But find it not,
 And fade and die imprisoned.
 .pm end-of-poem
 
-.pm ph 'Dingbat'
+.pm line-decoration final-decoration-1
 
 .bn 020.png
 .pn +1
@@ -721,11 +746,11 @@ And fade and die imprisoned.
 
 
 // I Love You.
-.pm poem-header "I Love You" i-love-you
+.pm poem-header "I Love You" i-love-you line-decoration-1
 
 
 
-.pm first-line 'temp-dc.png' 'I' 'love you fondly, deeply, truly;'
+.pm first-line 'capital-i-2' 'I' 'love you fondly, deeply, truly;' 1 3
 My heart rejoices with its load[**indent to match next stanza pattern?]
   Of fondness, all on you bestowed.
         I smile and sigh,
@@ -764,17 +789,17 @@ But I will love you till I die,
     I feel because I love you.
 .pm end-of-poem
 
-.pm ph 'Dingbat'
+.pm line-decoration final-decoration-2
 
 
 
 
 //Self.
-.pm poem-header "Self" self
+.pm poem-header "Self" self line-decoration-1
 
 
 
-.pm first-line 'temp-dc.png' 'All,' 'all are selfish.'
+.pm first-line 'capital-a' 'All,' 'all are selfish.' '7' '10'
 There is not one who does not live himself to please.
 Life holds for each no other aim or object
 Than to gratify and satisfy his own ambitions and desires.
@@ -800,10 +825,10 @@ The better by their deeds.
 
 
 // In the Firelight.
-.pm poem-header "In the Firelight" in-the-firelight
+.pm poem-header "In the Firelight" in-the-firelight line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'The' 'daylight gone,'
+.pm first-line 'capital-t-1' 'The' 'daylight gone,' 3 2
       The curtains drawn,
 The evening meal completed;[**F1:based on other stanzas]
       My bird abed,
@@ -876,10 +901,10 @@ And soothe me in my slumber;
 
 
 // To the Egotist.
-.pm poem-header "To the Egotist" to-the-egotist
+.pm poem-header "To the Egotist" to-the-egotist line-decoration-2
 
 
-.pm first-line 'temp-dc.png' 'Think' 'of this earth, this great revolving globe,'
+.pm first-line 'capital-t-2' 'Think' 'of this earth, this great revolving globe,' '3' '5'
 That whirls along its boundless path,
 Through the immensity of space!
 Think of the multitude of stars
@@ -913,10 +938,10 @@ The universe, and the thought affords me pleasure.
 
 
 // A Picture.
-.pm poem-header "A Picture" a-picture
+.pm poem-header "A Picture" a-picture line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'Tall' 'and stately, well-developed, graceful as a willow bough,'
+.pm first-line 'capital-t-3' 'Tall' 'and stately, well-developed, graceful as a willow bough,' 6 7
 Dark, luxuriant, glossy ringlets clust’ring o’er a noble brow;
   Pearly, rounded arms and shoulders, long and slender pink-tipped hands;
   Clasped above one dimpled elbow glitter two, broad golden bands.
@@ -935,7 +960,7 @@ Full, ripe lips—a fount of sweetness—ever pleading for a kiss.
 Who could see without admiring an impassioned girl like this?
 .pm end-of-poem
 
-.pm ph 'Dingbat'
+.pm line-decoration final-decoration-1
 
 .bn 026.png
 .pn +1
@@ -944,10 +969,10 @@ Who could see without admiring an impassioned girl like this?
 
 
 // The Purity of Passion.
-.pm poem-header "The Purity of Passion" the-purity-of-passion
+.pm poem-header "The Purity of Passion" the-purity-of-passion line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'As' 'the sunshine wooes the water'
+.pm first-line 'capital-a' 'As' 'the sunshine wooes the water' '7' '10'
   Till it gleams with glad’ning smiles,
 And the burning earth’s bare beauty
   The soothing cloud beguiles;
@@ -965,15 +990,15 @@ So—in perfect health and reason—
   Is Love’s passion to the pure.
 .pm end-of-poem
 
-.pm ph 'Dingbat'
+.pm line-decoration final-decoration-2
 
 
 // Love’s Content.
-.pm poem-header "Love’s Content" loves-content
+.pm poem-header "Love’s Content" loves-content line-decoration-1
 
 
 
-.pm first-line 'temp-dc.png' 'O' 'darling, there is in this great world of ours'
+.pm first-line 'capital-o' 'O' 'darling, there is in this great world of ours' '5' '7'
   So much, so very much sadness,
 But, when you hold me in your arms and kiss me,
   I feel only joy and gladness.
@@ -985,10 +1010,10 @@ But, when you hold me in your arms and kiss me,
 
 
 // He Loved Her.
-.pm poem-header "He Loved Her" he-loved-her
+.pm poem-header "He Loved Her" he-loved-her line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'He' 'loved her. His blue eyes looked lovingly down into hers'
+.pm first-line 'capital-h' 'He' 'loved her. His blue eyes looked lovingly down into hers' 4 7
   And read there an answer responsive and true.
 She knew that he loved her. His eyes told the tale of his love,
   Those half-closed, kind eyes of such soft, melting blue.
@@ -1019,10 +1044,10 @@ Alas! never, poor girl! For her lover was dumb.
 
 
 // Relativity.
-.pm poem-header "Relativity" relativity
+.pm poem-header "Relativity" relativity line-decoration-1
 
 
-.pm first-line 'temp-dc.png' 'If' 'all the flowers were roses,'
+.pm first-line 'capital-i-2' 'If' 'all the flowers were roses,' 1 3
   A rose would not be rare;
 If all the days were cloudless,
   We’d call not any fair.
@@ -1054,11 +1079,11 @@ Mankind would be a unit,
 
 
 // A Spring Idyl.
-.pm poem-header "A Spring Idyl" a-spring-idyl
+.pm poem-header "A Spring Idyl" a-spring-idyl line-decoration-1
 
 
 
-.pm first-line 'temp-dc.png' 'On' 'the branches of the trees'
+.pm first-line 'capital-o' 'On' 'the branches of the trees' '5' '7'
         In the summer morning breeze,
         Many merry, happy birds
         Sing their songs to flocks and herds.
@@ -1105,7 +1130,7 @@ Together, then, leave them in sacred communion—
   Holy affections deep reverence command.
 .pm end-of-poem
 
-.pm ph 'Dingbat'
+.pm line-decoration final-decoration-3
 
 // END OF MAIN TEXT
 
