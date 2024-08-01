@@ -8,30 +8,6 @@
 
 .dt My Betrothed and Other Poems | Project Gutenberg
 
-// PLACEHOLDERS
-
-.dm ph-start $1
-.if h
-<div style="width:35%;background-color:#DDFFDD;border:3px solid black;margin:auto;padding:1em;text-align:center;">
-<div style="margin:1em auto 1em auto">$1 Placeholder</div>
-.if-
-.if t
-.ce
-$1 Placeholder
-.if-
-.dm-
-
-.dm ph-end
-.if h
-</div>
-.if-
-.dm-
-
-.dm ph $1
-.pm ph-start $1
-.pm ph-end
-.dm-
-
 // REGISTERS
 
 .nr psi .5em
