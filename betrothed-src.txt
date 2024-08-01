@@ -62,7 +62,7 @@ $1.
 .if h
 .dv class='poem'
 .li
-<div><img src='images/$1.png' class='drop-cap' style='height:4em; aspect-ratio:$4 / $5; margin:0 3.25em 0 0;' alt=" "></div>
+<div><img src='images/$1.png' class='drop-cap' style='height:4em; margin:0 3.25em 0 0;' alt=" "></div>
 .li-
 .nf
 <span> </span><br/>
@@ -199,7 +199,7 @@ By <sc>Lizzie Magie</sc>,
 .bn 004.png
 
 .if h
-<img src="images/index-header.png" alt="Index" class="centred" style="height:12em; aspect-ratio:28 / 13;">
+<img src="images/index-header.png" alt="Index" class="centred" style="height:12em;">
 .if-
 
 .h2 id=index
