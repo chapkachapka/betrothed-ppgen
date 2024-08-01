@@ -264,7 +264,7 @@ My sweet blossom, my Roberta,
 Whom I called my baby sweetheart,
 .bn 007.png
 .pn +1
-[**new stanza?]She that was my merry playmate,
+She that was my merry playmate,
 She whom I had watched mature.
 Then I realized I loved her,
 Dearly, deeply, loved Roberta;
@@ -372,7 +372,7 @@ Grace and beauty in each movement,
 Simple, pretty, artless charms.
 .bn 010.png
 .pn +1
-[**new stanza?]Soft her skin as new-born baby’s,
+Soft her skin as new-born baby’s,
 Soft and tender as a roseleaf,
 Creamy pink, without a blemish,
 Blend the lily’s pearly tintings
@@ -751,7 +751,7 @@ And fade and die imprisoned.
 
 
 .pm first-line 'capital-i-2' 'I' 'love you fondly, deeply, truly;' 1 3
-My heart rejoices with its load[**indent to match next stanza pattern?]
+  <target id=tn-my-heart>My heart rejoices with its load
   Of fondness, all on you bestowed.
         I smile and sigh,
         I laugh and cry;
@@ -830,7 +830,7 @@ The better by their deeds.
 
 .pm first-line 'capital-t-1' 'The' 'daylight gone,' 3 2
       The curtains drawn,
-The evening meal completed;[**F1:based on other stanzas]
+The evening meal completed;
       My bird abed,
       With tiny head
 ’Neath golden wing secreted;
@@ -1052,7 +1052,7 @@ Alas! never, poor girl! For her lover was dumb.
 If all the days were cloudless,
   We’d call not any fair.
 
-If all the books were bibles.[** ,]
+If all the books were <target id=tn-bibles>bibles,
   But few would learn to read;
 If all the world were Christians,
   There’d be no better creed.
@@ -1148,7 +1148,8 @@ This file uses <em>underscores</em> to indicate italic text.
 .if-
 Itemized changes from the original text:
 .ul
-//.it #p. 10:tn-wife#: Removed comma after “wife” (…his wife answered…)
+.it #p. 19:tn-my-heart#: Second line of “I Love You” indented to match other stanzas.
+.it #p. 27:tn-bibles#: Replaces period with comma at the end of the fifth line of “Relativity.”
 .ul-
 .dv-
 
