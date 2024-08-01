@@ -148,7 +148,6 @@ page-break-before:always;margin-top:4em; }
 .il fn=title-page.jpg alt="My Betrothed and Other Poems" w=80%
 .if-
 
-
 .h1
 My Betrothed||and||Other Poems
 
@@ -176,13 +175,10 @@ They will be most highly valued where they are best and longest known.
 <s>THE BRODIX PUBLISHING COMPANY,
 1892.</s>
 
-
 .pb
 
 .bn 003.png
 .sp 4
-
-
 
 .ce 3
 Copyright, 1892,
@@ -227,10 +223,8 @@ A SPRING IDYL,|#28:a-spring-idyl#
 .in 2
 .if-
 
-
 .bn 006.png
 .pn 5
-
 
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed line-decoration-1
@@ -625,16 +619,11 @@ As Roberta, sweet Roberta,
 My Roberta, is by me!
 .pm end-of-poem
 
-
 .bn 017.png
 .pn +1
 
-
-
-
 //Genius Imprisoned.
 .pm poem-header "Genius Imprisoned" genius-imprisoned line-decoration-1
-
 
 .pm first-line 'capital-i-1' 'In' 'a dark and dingy place,' '3' '10'
 Surrounded by the sombre, dull-hued things
@@ -742,13 +731,8 @@ And fade and die imprisoned.
 .bn 020.png
 .pn +1
 
-
-
-
 // I Love You.
 .pm poem-header "I Love You" i-love-you line-decoration-1
-
-
 
 .pm first-line 'capital-i-2' 'I' 'love you fondly, deeply, truly;' 1 3
   <target id=tn-my-heart>My heart rejoices with its load
@@ -791,13 +775,8 @@ But I will love you till I die,
 
 .pm line-decoration final-decoration-2
 
-
-
-
 //Self.
 .pm poem-header "Self" self line-decoration-1
-
-
 
 .pm first-line 'capital-a' 'All,' 'all are selfish.' '7' '10'
 There is not one who does not live himself to please.
@@ -823,10 +802,8 @@ The better by their deeds.
 .bn 022.png
 .pn +1
 
-
 // In the Firelight.
 .pm poem-header "In the Firelight" in-the-firelight line-decoration-1
-
 
 .pm first-line 'capital-t-1' 'The' 'daylight gone,' 3 2
       The curtains drawn,
@@ -897,12 +874,8 @@ And soothe me in my slumber;
 .bn 024.png
 .pn +1
 
-
-
-
 // To the Egotist.
 .pm poem-header "To the Egotist" to-the-egotist line-decoration-2
-
 
 .pm first-line 'capital-t-2' 'Think' 'of this earth, this great revolving globe,' '3' '5'
 That whirls along its boundless path,
@@ -934,12 +907,8 @@ The universe, and the thought affords me pleasure.
 .bn 025.png
 .pn +1
 
-
-
-
 // A Picture.
 .pm poem-header "A Picture" a-picture line-decoration-1
-
 
 .pm first-line 'capital-t-3' 'Tall' 'and stately, well-developed, graceful as a willow bough,' 6 7
 Dark, luxuriant, glossy ringlets clust’ring o’er a noble brow;
@@ -965,12 +934,8 @@ Who could see without admiring an impassioned girl like this?
 .bn 026.png
 .pn +1
 
-
-
-
 // The Purity of Passion.
 .pm poem-header "The Purity of Passion" the-purity-of-passion line-decoration-1
-
 
 .pm first-line 'capital-a' 'As' 'the sunshine wooes the water' '7' '10'
   Till it gleams with glad’ning smiles,
@@ -992,11 +957,8 @@ So—in perfect health and reason—
 
 .pm line-decoration final-decoration-2
 
-
 // Love’s Content.
 .pm poem-header "Love’s Content" loves-content line-decoration-1
-
-
 
 .pm first-line 'capital-o' 'O' 'darling, there is in this great world of ours' '5' '7'
   So much, so very much sadness,
@@ -1006,12 +968,8 @@ But, when you hold me in your arms and kiss me,
 .bn 027.png
 .pn +1
 
-
-
-
 // He Loved Her.
 .pm poem-header "He Loved Her" he-loved-her line-decoration-1
-
 
 .pm first-line 'capital-h' 'He' 'loved her. His blue eyes looked lovingly down into hers' 4 7
   And read there an answer responsive and true.
@@ -1040,12 +998,8 @@ Alas! never, poor girl! For her lover was dumb.
 .bn 028.png
 .pn +1
 
-
-
-
 // Relativity.
 .pm poem-header "Relativity" relativity line-decoration-1
-
 
 .pm first-line 'capital-i-2' 'If' 'all the flowers were roses,' 1 3
   A rose would not be rare;
@@ -1075,13 +1029,8 @@ Mankind would be a unit,
 .bn 029.png
 .pn +1
 
-
-
-
 // A Spring Idyl.
 .pm poem-header "A Spring Idyl" a-spring-idyl line-decoration-1
-
-
 
 .pm first-line 'capital-o' 'On' 'the branches of the trees' '5' '7'
         In the summer morning breeze,
