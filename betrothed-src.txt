@@ -42,6 +42,8 @@ $1 Placeholder
 // Headers for individual poems
 .dm poem-header $1 $2 $3 // $1=title, $2=id, $3=line decoration filename
 .pb
+.dv // Necessary to keep ppgen from mixing the opening div tag into the page number
+.dv-
 .if h
 <div class="poem-title-block" id="$2">
 .if-
@@ -59,7 +61,9 @@ $1.
 .dm first-line $1 $2 $3 $4 $5
 .if h
 .dv class='poem'
-<div class='drop-cap-image'><img src='images/$1.png' class='drop-cap' style='height:4em; aspect-ratio:$4 / $5; margin:0 3.25em 0 0;'></div>
+.li
+<div><img src='images/$1.png' class='drop-cap' style='height:4em; aspect-ratio:$4 / $5; margin:0 3.25em 0 0;' alt=" "></div>
+.li-
 .nf
 <span> </span><br/>
 <span class='first-word'>$2</span> $3
@@ -80,7 +84,7 @@ $2 $3
 // Line Decoration
 .dm line-decoration $1 // filename
 .if h
-<img src='images/$1.png' class='line-decoration centred'>
+<img src='images/$1.png' class='line-decoration centred' alt=" ">
 .if-
 .if t
 .hr w=20%
@@ -123,6 +127,10 @@ page-break-before:always;margin-top:4em; }
 
 // Remove soft hyphens from plain text version
 .sr t §­§§
+
+// Remove trailing slash from <br> tag--leaving it in a nf block messes everything up
+
+.sr h §<br/>§<br>§
 
 // END OF HEADER
 
@@ -225,6 +233,7 @@ A SPRING IDYL,|#28:a-spring-idyl#
 
 .bn 006.png
 .pn 5
+
 
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed line-decoration-1
