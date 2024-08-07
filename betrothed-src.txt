@@ -72,8 +72,6 @@ $2 $3
 .de h1#title {font-size:2.4em;}
 .de body h2 {font-size:2em;}
 
-.de div.poem-title-block {page-break-before:always;}
-
 .de div.poem {max-width:85%;margin-right:auto;margin-left:auto;}
 
 .de img.centred {display:block;margin-left:auto;margin-right:auto}
@@ -103,6 +101,9 @@ page-break-before:always;}
 .de .x-ebookmaker .x-in6{ padding-left: 6.0em; }
 .de .x-ebookmaker .x-in10{ padding-left: 8.0em; }
 
+// Remove extra page breaks from epub versions
+
+.de .x-ebookmaker .chapter { clear: both; page-break-before: auto; }
 
 // REGEX
 
