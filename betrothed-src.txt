@@ -96,6 +96,12 @@ page-break-before:always;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
 
+// Remove drop caps from epub versions
+
+.de .x-ebookmaker img.drop-cap {display: none;}
+
+.de .x-ebookmaker .first-line:first-letter { color: inherit; visibility: visible; margin-left: 0;}
+
 // REGEX
 
 // Mark the first line of each poem
