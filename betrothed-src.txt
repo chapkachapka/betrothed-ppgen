@@ -69,8 +69,8 @@ $2 $3
 
 // CLASS DEFINITIONS
 
-.de h1 {font-size:2.4em;}
-.de h2 {font-size:2em;}
+.de h1#title {font-size:2.4em;}
+.de body h2 {font-size:2em;}
 
 .de div.poem-title-block {page-break-before:always;}
 
@@ -80,9 +80,9 @@ $2 $3
 
 .de img.line-decoration {width:10em;}
 
-.de .transcribers-notes { width: 80%; margin: auto; padding: 0 1em; \
+.de .transcribers-notes { margin:auto;width: 80%; padding: 0 1em; \
 background-color: #E3E4FA; border: 1px solid silver; \
-page-break-before:always;margin-top:4em; }
+page-break-before:always;}
 
 .if h
 .de #index {margin-top:2em;}
@@ -90,7 +90,7 @@ page-break-before:always;margin-top:4em; }
 
 // Image drop caps
 .de img.drop-cap { float:left; position: relative; z-index: 1; margin:0 3.25em 0 0; }
-.de .linegroup {display:inline;}
+//.de .linegroup {display:inline;}
 .de .line, .first-line {display:block;}
 .de .first-word {text-transform:uppercase;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
@@ -107,6 +107,10 @@ page-break-before:always;margin-top:4em; }
 // Remove trailing slash from <br> tag--leaving it in a nf block messes everything up
 
 .sr h §<br/>§<br>§
+
+// Change linegroup display to support drop caps
+
+.sr h §.linegroup { display: inline-block;§.linegroup { display: inline;§
 
 // END OF HEADER
 
@@ -132,7 +136,7 @@ page-break-before:always;margin-top:4em; }
 .il fn=title-page.jpg alt="My Betrothed and Other Poems" w=80%
 .if-
 
-.h1
+.h1 id='title'
 My Betrothed||and||Other Poems
 
 .ce
@@ -1069,7 +1073,7 @@ Together, then, leave them in sacred communion—
 // END OF MAIN TEXT
 
 // TRANSCRIBER’S NOTES
-
+.pb
 .ni
 .dv class="transcribers-notes"
 .ce
