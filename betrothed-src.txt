@@ -96,11 +96,13 @@ page-break-before:always;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
 .de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
 
-// Remove drop caps from epub versions
+// Remove drop caps from epub versions and replace with indents
 
 .de .x-ebookmaker img.drop-cap {display: none;}
-
 .de .x-ebookmaker .first-line:first-letter { color: inherit; visibility: visible; margin-left: 0;}
+.de .x-ebookmaker .x-in6{ padding-left: 6.0em; }
+.de .x-ebookmaker .x-in10{ padding-left: 8.0em; }
+
 
 // REGEX
 
@@ -117,6 +119,13 @@ page-break-before:always;}
 // Change linegroup display to support drop caps
 
 .sr h §.linegroup { display: inline-block;§.linegroup { display: inline;§
+
+// Drop-capped first line should be indented when drop cap is not present (in plain text and epub versions)
+
+.sr t §@i6@§      §
+.sr t §@i10@§          §
+.sr h §<div class='line first-line'><span class='first-word'>@i6@§<div class='line first-line x-in6'><span class='first-word'>§
+.sr h §<div class='line first-line'><span class='first-word'>@i10@§<div class='line first-line x-in10'><span class='first-word'>§
 
 // END OF HEADER
 
@@ -800,7 +809,7 @@ The better by their deeds.
 // In the Firelight.
 .pm poem-header "In the Firelight" in-the-firelight line-decoration-1
 
-.pm first-line 'capital-t-1' 'The' 'daylight gone,' 3 2
+.pm first-line 'capital-t-1' '@i6@The' 'daylight gone,' 3 2
       The curtains drawn,
 The evening meal completed;
       My bird abed,
@@ -1025,10 +1034,11 @@ Mankind would be a unit,
 .pn +1
 
 // A Spring Idyl.
+<target id=tn-spring-idyl>
 .pm poem-header "A Spring Idyl" a-spring-idyl line-decoration-1
 
-.pm first-line 'capital-o' 'On' 'the branches of the trees' '5' '7'
-        In the summer morning breeze,
+.pm first-line 'capital-o' '@i10@On' 'the branches of the trees' '5' '7'
+          In the summer morning breeze,
         Many merry, happy birds
         Sing their songs to flocks and herds.
           Little, laughing, rippling rills
@@ -1090,10 +1100,12 @@ Together, then, leave them in sacred communion—
 .if t
 This file uses <em>underscores</em> to indicate italic text.
 .if-
+
 Itemized changes from the original text:
 .ul
 .it #p. 19:tn-my-heart#: Second line of “I Love You” indented to match other stanzas.
 .it #p. 27:tn-bibles#: Replaces period with comma at the end of the fifth line of “Relativity.”
+.it #p. 28:tn-spring-idyl# The intended indentation in “A Spring Idyl” was not clear because of the large decorative capital, and was chosen editorially.
 .ul-
 .dv-
 
