@@ -1104,8 +1104,8 @@ This file uses <em>underscores</em> to indicate italic text.
 
 Itemized changes from the original text:
 .ul
-.it #p. 19:tn-my-heart#: Second line of “I Love You” indented to match other stanzas.
-.it #p. 27:tn-bibles#: Replaces period with comma at the end of the fifth line of “Relativity.”
+.it #p. 19:tn-my-heart#: The intended indentation in “I Love You” was not clear because of the large decorative capital, and was chosen editorially.
+.it #p. 27:tn-bibles#: Period replaced with comma at the end of the fifth line of “Relativity.”
 .it #p. 28:tn-spring-idyl# The intended indentation in “A Spring Idyl” was not clear because of the large decorative capital, and was chosen editorially.
 .ul-
 .dv-
