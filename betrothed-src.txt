@@ -17,7 +17,13 @@
 
 // Headers for individual poems
 .dm poem-header $1 $2 $3 // $1=title, $2=id, $3=line decoration filename
+.if t
+.sp 2
+.if-
 .pb
+.if t
+.sp 2
+.if-
 .dv // Necessary to keep ppgen from mixing the opening div tag into the page number
 .dv-
 .if h
@@ -66,6 +72,14 @@ $2 $3
 .hr w=20%
 .if-
 .dm-
+
+// Final Decoration (same as above in html, left out of plain text)
+.dm final-decoration $1 // filename
+.if h
+<img src='images/$1.png' class='line-decoration centred' alt=" ">
+.if-
+.dm-
+
 
 // CLASS DEFINITIONS
 
@@ -736,7 +750,7 @@ But find it not,
 And fade and die imprisoned.
 .pm end-of-poem
 
-.pm line-decoration final-decoration-1
+.pm final-decoration final-decoration-1
 
 .bn 020.png
 .pn +1
@@ -783,7 +797,7 @@ But I will love you till I die,
     I feel because I love you.
 .pm end-of-poem
 
-.pm line-decoration final-decoration-2
+.pm final-decoration final-decoration-2
 
 //Self.
 .pm poem-header "Self" self line-decoration-1
@@ -939,7 +953,7 @@ Full, ripe lips—a fount of sweetness—ever pleading for a kiss.
 Who could see without admiring an impassioned girl like this?
 .pm end-of-poem
 
-.pm line-decoration final-decoration-1
+.pm final-decoration final-decoration-1
 
 .bn 026.png
 .pn +1
@@ -965,7 +979,7 @@ So—in perfect health and reason—
   Is Love’s passion to the pure.
 .pm end-of-poem
 
-.pm line-decoration final-decoration-2
+.pm final-decoration final-decoration-2
 
 // Love’s Content.
 .pm poem-header "Love’s Content" loves-content line-decoration-1
@@ -1090,7 +1104,7 @@ Together, then, leave them in sacred communion—
   Holy affections deep reverence command.
 .pm end-of-poem
 
-.pm line-decoration final-decoration-3
+.pm final-decoration final-decoration-3
 
 // END OF MAIN TEXT
 
