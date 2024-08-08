@@ -34,7 +34,7 @@ $1.
 .dm-
 
 // Drop capital and first line
-.dm first-line $1 $2 $3 $4 $5
+.dm first-line $1 $2 $3 $4
 .if h
 .dv class='poem'
 .li
@@ -42,7 +42,7 @@ $1.
 .li-
 .nf
 <span> </span><br/>
-<span class='first-word'>$2</span> $3
+<span class='first-word' indent='$4'>$2</span> $3
 .if-
 .if t
 .dv class='cap-poem'
@@ -92,7 +92,12 @@ page-break-before:always;}
 .de .line, .first-line {display:block;}
 .de .first-word {text-transform:uppercase;}
 .de div.cap-poem:after {content:' ';display:block;clear:both;}
-.de .first-line:first-letter {color: transparent; visibility: hidden; margin-left: -0.75em;}
+.de .first-line:first-letter {color: transparent; visibility: hidden;}
+.de .in400:first-letter {margin-left:-4em;}
+.de .in200:first-letter {margin-left:-2em;}
+.de .in100:first-letter {margin-left:-1em;}
+.de .in075:first-letter {margin-left:-0.75em;}
+.de .in050:first-letter {margin-left:-0.60em;}
 
 // Remove drop caps from epub versions and replace with indents
 
@@ -108,7 +113,7 @@ page-break-before:always;}
 // REGEX
 
 // Mark the first line of each poem
-.sr h §<div class='line'><span class='first-word'>§<div class='line first-line'><span class='first-word'>§
+.sr h §<div class='line'><span class='first-word' indent='(.*)'§<div class='line first-line \1'><span class='first-word'§
 
 // Remove soft hyphens from plain text version
 .sr t §­§§
@@ -125,8 +130,8 @@ page-break-before:always;}
 
 .sr t §@i6@§      §
 .sr t §@i10@§          §
-.sr h §<div class='line first-line'><span class='first-word'>@i6@§<div class='line first-line x-in6'><span class='first-word'>§
-.sr h §<div class='line first-line'><span class='first-word'>@i10@§<div class='line first-line x-in10'><span class='first-word'>§
+.sr h §'><span class='first-word'>@i6@§ x-in6'><span class='first-word'>§
+.sr h §'><span class='first-word'>@i10@§ x-in10'><span class='first-word'>§
 
 // END OF HEADER
 
@@ -234,7 +239,7 @@ A SPRING IDYL,|#28:a-spring-idyl#
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed line-decoration-1
 
-.pm first-line 'capital-s' 'Scar­ce­ly' 'eighteen years have flitted,' 7 4
+.pm first-line 'capital-s' 'Scar­ce­ly' 'eighteen years have flitted,' 'in200'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
@@ -630,7 +635,7 @@ My Roberta, is by me!
 //Genius Imprisoned.
 .pm poem-header "Genius Imprisoned" genius-imprisoned line-decoration-1
 
-.pm first-line 'capital-i-1' 'In' 'a dark and dingy place,' '3' '10'
+.pm first-line 'capital-i-1' 'In' 'a dark and dingy place,' 'in050'
 Surrounded by the sombre, dull-hued things
 Of daily business life,
 A youth, a pale and wan, though handsome youth,
@@ -739,7 +744,7 @@ And fade and die imprisoned.
 // I Love You.
 .pm poem-header "I Love You" i-love-you line-decoration-1
 
-.pm first-line 'capital-i-2' 'I' 'love you fondly, deeply, truly;' 1 3
+.pm first-line 'capital-i-2' 'I' 'love you fondly, deeply, truly;' 'in075'
   <target id=tn-my-heart>My heart rejoices with its load
   Of fondness, all on you bestowed.
         I smile and sigh,
@@ -783,7 +788,7 @@ But I will love you till I die,
 //Self.
 .pm poem-header "Self" self line-decoration-1
 
-.pm first-line 'capital-a' 'All,' 'all are selfish.' '7' '10'
+.pm first-line 'capital-a' 'All,' 'all are selfish.' 'in100'
 There is not one who does not live himself to please.
 Life holds for each no other aim or object
 Than to gratify and satisfy his own ambitions and desires.
@@ -810,7 +815,7 @@ The better by their deeds.
 // In the Firelight.
 .pm poem-header "In the Firelight" in-the-firelight line-decoration-1
 
-.pm first-line 'capital-t-1' '@i6@The' 'daylight gone,' 3 2
+.pm first-line 'capital-t-1' '@i6@The' 'daylight gone,' 'in400'
       The curtains drawn,
 The evening meal completed;
       My bird abed,
@@ -882,7 +887,7 @@ And soothe me in my slumber;
 // To the Egotist.
 .pm poem-header "To the Egotist" to-the-egotist line-decoration-2
 
-.pm first-line 'capital-t-2' 'Think' 'of this earth, this great revolving globe,' '3' '5'
+.pm first-line 'capital-t-2' 'Think' 'of this earth, this great revolving globe,' 'in100'
 That whirls along its boundless path,
 Through the immensity of space!
 Think of the multitude of stars
@@ -915,7 +920,7 @@ The universe, and the thought affords me pleasure.
 // A Picture.
 .pm poem-header "A Picture" a-picture line-decoration-1
 
-.pm first-line 'capital-t-3' 'Tall' 'and stately, well-developed, graceful as a willow bough,' 6 7
+.pm first-line 'capital-t-3' 'Tall' 'and stately, well-developed, graceful as a willow bough,' 'in075'
 Dark, luxuriant, glossy ringlets clust’ring o’er a noble brow;
   Pearly, rounded arms and shoulders, long and slender pink-tipped hands;
   Clasped above one dimpled elbow glitter two, broad golden bands.
@@ -942,7 +947,7 @@ Who could see without admiring an impassioned girl like this?
 // The Purity of Passion.
 .pm poem-header "The Purity of Passion" the-purity-of-passion line-decoration-1
 
-.pm first-line 'capital-a' 'As' 'the sunshine wooes the water' '7' '10'
+.pm first-line 'capital-a' 'As' 'the sunshine wooes the water' 'in100'
   Till it gleams with glad’ning smiles,
 And the burning earth’s bare beauty
   The soothing cloud beguiles;
@@ -965,7 +970,7 @@ So—in perfect health and reason—
 // Love’s Content.
 .pm poem-header "Love’s Content" loves-content line-decoration-1
 
-.pm first-line 'capital-o' 'O' 'darling, there is in this great world of ours' '5' '7'
+.pm first-line 'capital-o' 'O' 'darling, there is in this great world of ours' 'in075'
   So much, so very much sadness,
 But, when you hold me in your arms and kiss me,
   I feel only joy and gladness.
@@ -976,7 +981,7 @@ But, when you hold me in your arms and kiss me,
 // He Loved Her.
 .pm poem-header "He Loved Her" he-loved-her line-decoration-1
 
-.pm first-line 'capital-h' 'He' 'loved her. His blue eyes looked lovingly down into hers' 4 7
+.pm first-line 'capital-h' 'He' 'loved her. His blue eyes looked lovingly down into hers' 'in100'
   And read there an answer responsive and true.
 She knew that he loved her. His eyes told the tale of his love,
   Those half-closed, kind eyes of such soft, melting blue.
@@ -1006,7 +1011,7 @@ Alas! never, poor girl! For her lover was dumb.
 // Relativity.
 .pm poem-header "Relativity" relativity line-decoration-1
 
-.pm first-line 'capital-i-2' 'If' 'all the flowers were roses,' 1 3
+.pm first-line 'capital-i-2' 'If' 'all the flowers were roses,' 'in050'
   A rose would not be rare;
 If all the days were cloudless,
   We’d call not any fair.
@@ -1038,7 +1043,7 @@ Mankind would be a unit,
 <target id=tn-spring-idyl>
 .pm poem-header "A Spring Idyl" a-spring-idyl line-decoration-1
 
-.pm first-line 'capital-o' '@i10@On' 'the branches of the trees' '5' '7'
+.pm first-line 'capital-o' '@i10@On' 'the branches of the trees' 'in100'
           In the summer morning breeze,
         Many merry, happy birds
         Sing their songs to flocks and herds.
