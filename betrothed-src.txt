@@ -44,7 +44,7 @@ $1.
 .if h
 .dv class='poem'
 .li
-<div><img src='images/$1.png' class='drop-cap' style='height:4em; margin:0 3.25em 0 0;' alt=" "></div>
+<div><img src='images/$1.png' class='drop-cap' style='height:4em; margin:0 3.25em 0 0;' alt=""></div>
 .li-
 .nf
 <span> </span><br/>
@@ -66,7 +66,7 @@ $2 $3
 // Line Decoration
 .dm line-decoration $1 // filename
 .if h
-<img src='images/$1.png' class='line-decoration centred' alt=" ">
+<img src='images/$1.png' class='line-decoration centred' alt="">
 .if-
 .if t
 .hr w=20%
@@ -76,7 +76,7 @@ $2 $3
 // Final Decoration (same as above in html, left out of plain text)
 .dm final-decoration $1 // filename
 .if h
-<img src='images/$1.png' class='line-decoration centred' alt=" ">
+<img src='images/$1.png' class='line-decoration centred' alt="">
 .if-
 .dm-
 
@@ -914,6 +914,7 @@ Think of this endless wilderness of worlds,
 The universe!
 And what are you?
 
+.sp 2
 .ce
 <l>THE ANSWER.</l>
 
