@@ -22,11 +22,12 @@
 .if-
 .pb
 .if t
-.sp 2
+.sp 4
 .if-
 .dv // Necessary to keep ppgen from mixing the opening div tag into the page number
 .dv-
 .if h
+.sp 4
 <div class="poem-title-block" id="$2">
 .if-
 .h2
@@ -126,6 +127,9 @@ page-break-before:always;}
 
 // REGEX
 
+// Remove placeholders
+.sr h §@placeholder@§§
+
 // Mark the first line of each poem
 .sr h §<div class='line'><span class='first-word' indent='(.*)'§<div class='line first-line \1'><span class='first-word'§
 
@@ -162,13 +166,16 @@ page-break-before:always;}
 
 .if h
 .il fn=frontispiece.jpg w=80% alt='Frontispiece, signed "Respectfully Lizzie Magie"'
+.pb
 .if-
 
-.pb
 .bn 002.png
 
 .if h
 .il fn=title-page.jpg alt="My Betrothed and Other Poems" w=80%
+.if-
+.if t
+.sp 4
 .if-
 
 .h1 id='title'
@@ -1112,6 +1119,12 @@ Together, then, leave them in sacred communion—
 // TRANSCRIBER’S NOTES
 .pb
 .ni
+.sp 4
+.if h
+.dv // Needed to keep extra space from being filled with bg-color box
+@placeholder@
+.dv-
+.if-
 .dv class="transcribers-notes"
 .ce
 <xl>Transcriber’s Notes</xl>
