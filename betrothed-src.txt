@@ -102,7 +102,7 @@ page-break-before:always;}
 .if-
 
 // Image drop caps
-.de img.drop-cap { float:left; position: relative; z-index: 1; margin:0 3.25em 0 0; }
+.de img.drop-cap { float:left; position: relative; margin:0 3.25em 0 0; }
 //.de .linegroup {display:inline;}
 .de .line, .first-line {display:block;}
 .de .first-word {text-transform:uppercase;}
@@ -150,6 +150,11 @@ page-break-before:always;}
 .sr t §@i10@§          §
 .sr h §'><span class='first-word'>@i6@§ x-in6'><span class='first-word'>§
 .sr h §'><span class='first-word'>@i10@§ x-in10'><span class='first-word'>§
+
+// Replace circle characters with bullets
+
+.sr t §●§•§
+
 
 // END OF HEADER
 
@@ -225,7 +230,7 @@ By <sc>Lizzie Magie</sc>,
 .if-
 
 .h2 id=index
-Index
+Index.
 
 .ta lr
 <th>|PAGE
