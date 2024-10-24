@@ -200,15 +200,20 @@ My Betrothed||and||Other Poems
 
 .sp 2
 
+.if h
+<div class="poem-flex-wrapper"><div style="margin:auto;">
+.if-
 .nf b
 If perhaps these rhymes of mine should sound not well in strangers’ ears,
 They have only to bethink them that it happens so with theirs;
 For so long as words, like mortals, call a fatherland their own,
 They will be most highly valued where they are best and longest known.
 .nf-
-
 .rj
 <I>Longfellow.</I>
+.if h
+</div></div>
+.if-
 
 .sp 2
 
