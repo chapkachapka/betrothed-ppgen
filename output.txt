@@ -1,269 +1,104 @@
-﻿unzipping /htdocs/ebookmaker/cache/20240822121145/betrothed.zip
-Archive:  /htdocs/ebookmaker/cache/20240822121145/betrothed.zip
-  inflating: /htdocs/ebookmaker/cache/20240822121145/betrothed.html  
-   creating: /htdocs/ebookmaker/cache/20240822121145/images/
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/.DS_Store  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/frontispiece.jpg  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-a.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/title-page.jpg  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-s.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-h.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-o.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/cover.jpg  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/index-header.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png  
-  inflating: /htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png  
+﻿unzipping /htdocs/ebookmaker/cache/20241022083053/b2.zip
+Archive:  /htdocs/ebookmaker/cache/20241022083053/b2.zip
+  inflating: /htdocs/ebookmaker/cache/20241022083053/betrothed.html  
+   creating: /htdocs/ebookmaker/cache/20241022083053/images/
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/frontispiece.jpg  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-a.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/title-page.jpg  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-s.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-h.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-o.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/cover.jpg  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-i-2.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/line-decoration-2.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/index-header.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-i-1.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/final-decoration-3.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-t-2.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-t-3.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/final-decoration-2.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/capital-t-1.png  
+  inflating: /htdocs/ebookmaker/cache/20241022083053/images/final-decoration-1.png  
 
-Input file: /htdocs/ebookmaker/cache/20240822121145/betrothed.html
+Input file: /htdocs/ebookmaker/cache/20241022083053/betrothed.html
 
 --- Validating your uploaded file
-/htdocs/ebookmaker/cache/20240822121145/betrothed.html
+/htdocs/ebookmaker/cache/20241022083053/betrothed.html
 --- Validation complete
 
 
 --- Starting ebookmaker processing
-EbookMaker 0.12.43
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
+EbookMaker 0.12.47
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-s.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-a.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-3.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-a.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-o.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-h.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-o.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-3.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-s.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-a.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-t-3.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-a.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-o.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-h.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-i-2.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/line-decoration-1.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/capital-o.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20241022083053/images/final-decoration-3.png. See https://github.com/gutenbergtools/ebookmaker/blob/master/docs/alt-text.md
+WARNING	Property: Unknown Property name. [64:44: flex-direction]
+WARNING:CSSUTILS:Property: Unknown Property name. [64:44: flex-direction]
+WARNING	Property: Unknown Property name. [64:44: flex-direction]
+WARNING:CSSUTILS:Property: Unknown Property name. [64:44: flex-direction]
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
 WARNING:root:25 elements having class pageno have been rewritten.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
 WARNING:root:25 elements having class pageno have been rewritten.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-s.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-t-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-a.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-h.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-i-2.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/line-decoration-1.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/capital-o.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
-WARNING:root:Empty alt text for file:///htdocs/ebookmaker/cache/20240822121145/images/final-decoration-3.png. See https://www.w3.org/WAI/tutorials/images/ for info on accessible alt text.
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
 WARNING:root:25 elements having class pageno have been rewritten.
+WARNING:cssutils:Property: Unknown Property name. [64:44: flex-direction]
 --- ebookmaker complete

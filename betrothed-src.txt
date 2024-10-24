@@ -28,7 +28,6 @@
 .dv-
 .if h
 .sp 4
-<div class="poem-flex-wrapper">
 <div class="poem-title-block" id="$2">
 .if-
 .h2
@@ -38,6 +37,7 @@ $1.
 .sp 2
 .if h
 </div>
+<div class="poem-flex-wrapper">
 .if-
 .dm-
 
@@ -54,7 +54,7 @@ $1.
 .if-
 .if t
 .dv class='cap-poem'
-.nf
+.nf b
 $2 $3
 .if-
 .dm-
@@ -91,7 +91,7 @@ $2 $3
 .de h1#title {font-size:2.4em;}
 .de body h2 {font-size:2em;}
 
-.de div.poem-flex-wrapper {display:flex;flex-direction:column;}
+.de div.poem-flex-wrapper {display:flex;}
 
 .de div.poem {max-width:85%;margin-right:auto;margin-left:auto;}
 
@@ -271,7 +271,7 @@ A SPRING IDYL,|#28:a-spring-idyl#
 // My Betrothed.
 .pm poem-header "My Betrothed" my-betrothed line-decoration-1
 
-.pm first-line 'capital-s' 'Scar­ce­ly' 'eighteen years have flitted,' 'in200'
+.pm first-line 'capital-s' 'Scarcely' 'eighteen years have flitted,' 'in200'
 Scarcely eighteen merry summers,
 And as many merry winters,
 Have elapsed since my Roberta,
