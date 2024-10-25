@@ -161,6 +161,10 @@ page-break-before:always;}
 
 .sr t §●§•§
 
+// Change max width default
+
+.sr h §.figcenter img { max-width: 100%;§.figcenter img { max-width: 25em;§
+
 
 // END OF HEADER
 
